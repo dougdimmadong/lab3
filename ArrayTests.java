@@ -36,6 +36,13 @@ public class ArrayTests {
     double output = ArrayExamples.averageWithoutLowest(input1);
     assertEquals(3.0, output, 0.01);
   }
+  
+  @Test
+  public void workingTest() {
+    double[] input1 = {1,3,4,2};
+    double output = ArrayExamples.averageWithoutLowest(input1);
+    assertEquals(3.0, output, 0.01);
+  }
 
 
 }
